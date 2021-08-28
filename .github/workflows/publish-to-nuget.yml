@@ -26,7 +26,8 @@ jobs:
       run: dotnet pack working/templatepack.csproj --output ${{ env.ARTIFACTS_DIRECTORY }}
       
     - name: Publish
-      run: dotnet nuget push ${{ env.ARTIFACTS_DIRECTORY }}/*.nupkg\
+      run: |
+        dotnet nuget push ${{ env.ARTIFACTS_DIRECTORY }}*.nupkg\
             --api-key ${{ secrets.NUGET_API_KEY }}\
             --source https://api.nuget.org/v3/index.json
   
