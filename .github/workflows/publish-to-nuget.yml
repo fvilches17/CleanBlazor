@@ -1,0 +1,33 @@
+name: Publish to Nuget.org
+
+on:
+  push:
+    branches: [ main ]
+    paths: 'working/templatepack.csproj'
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      ARTIFACTS_DIRECTORY: './artifacts/'
+      
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    
+    - name: Install .NET 6
+      uses: actions/setup-dotnet@v1.8.1
+      with:
+        dotnet-version: 6.0.x
+        include-prerelease: true
+    
+    - name: Pack
+      run: dotnet pack working/templatepack.csproj --output ${{ env.ARTIFACTS_DIRECTORY }}
+      
+    - name: Publish
+      run: |
+        dotnet nuget push ${{ env.ARTIFACTS_DIRECTORY }}*.nupkg\
+            --api-key ${{ secrets.NUGET_API_KEY }}\
+            --source https://api.nuget.org/v3/index.json
+  
