@@ -5,6 +5,8 @@ However, for brand new custom Blazor projects we will usually want to remove som
 
 The **CleanBlazor** project templates save you some time by providing minimal Blazor server and wasm templates (dotnet CLI and Visual Studio). Use to start out of the box Microsoft Blazor projects minus any boilerplate and unecessary html/css/js/razor.
 
+[Available on Nuget](https://www.nuget.org/packages/FriscoVInc.DotNet.Templates.CleanBlazor/) <img src="https://github.com/fvilches17/CleanBlazor/blob/main/images/nuget-logo.svg" height="30">
+
 ## Getting Started
 1. Make sure you have the latest version of the [.NET SDK](https://dotnet.microsoft.com/download/dotnet/) installed.
 2. Open a terminal (e.g. powershell or bash) in any directory.
