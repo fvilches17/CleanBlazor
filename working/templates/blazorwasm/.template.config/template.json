@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "FriscoV Inc.",
+    "classifications": [
+        "Web",
+        "Blazor",
+        "WebAssembly",
+        "Clean",
+        "Minimal"
+    ],
+    "identity": "FriscoVInc.CleanBlazor.Wasm.CSharp",
+    "groupIdentity": "FriscoVInc.CleanBlazor.Wasm",
+    "name": "Clean Blazor WebAssembly App",
+    "shortName": "cleanblazorwasm",
+    "defaultName": "BlazorApp",
+    "description": "A clean Blazor WebAssembly app project template. Uses Microsoft's default project template minus any boilerplate code, html, and css (e.g. Bootstrap)",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "preferNameDirectory": true,
+    "sourceName": "BlazorApp"
+}
