@@ -3,9 +3,9 @@
   <PropertyGroup>
     <PackageType>Template</PackageType>
     <PackageVersion>1.0</PackageVersion>
-    <PackageId>FriscoVInc.Templates.CleanBlazor</PackageId>
+    <PackageId>FriscoVInc.DotNet.Templates.CleanBlazor</PackageId>
     <Title>Clean Blazor Templates</Title>
-    <Authors>Frisco V. Inc.</Authors>
+    <Authors>FriscoV Inc.</Authors>
     <Description>
       Minimal Blazor server and wasm templates (dotnet CLI and Visual Studio).
       Use to start out of the box Microsoft Blazor projects minus any boilerplate and unecessary html/css/js/razor
@@ -18,11 +18,19 @@
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>
     <NoWarn>$(NoWarn);NU5128</NoWarn>
+
+    <Copyright>Copyright (c) FriscoV Inc. 2021</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/fvilches17/CleanBlazor</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/fvilches17/CleanBlazor</RepositoryUrl>
+    <RespositoryType>git</RespositoryType>
   </PropertyGroup>
 
   <ItemGroup>
     <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
     <Compile Remove="**\*" />
+    <None Include="icon.png" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
