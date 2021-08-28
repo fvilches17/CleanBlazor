@@ -8,6 +8,7 @@
         "Minimal"
     ],
     "identity": "FriscoVInc.CleanBlazor.Server.CSharp",
+    "groupIdentity": "FriscoVInc.CleanBlazor.Server",
     "name": "Clean Blazor Server App",
     "shortName": "cleanblazorserver",
     "defaultName": "BlazorApp",
@@ -15,5 +16,8 @@
     "tags": {
         "language": "C#",
         "type": "project"
-    }
+    },
+    "preferNameDirectory": true,
+    "sourceName": "BlazorApp",
+    "thirdPartyNotices": "https://github.com/fvilches17/CleanBlazor/blob/main/THIRD-PARTY-NOTICES.txt"
 }
