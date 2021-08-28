@@ -4,7 +4,8 @@
     "classifications": [
         "Web",
         "Blazor",
-        "Clean"
+        "Clean",
+        "Minimal"
     ],
     "identity": "FriscoVInc.CleanBlazor.Server.CSharp",
     "name": "Clean Blazor Server App",
