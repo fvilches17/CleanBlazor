@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
     env:
       ARTIFACTS_DIRECTORY: './artifacts/'
@@ -23,7 +23,7 @@ jobs:
         include-prerelease: true
     
     - name: Pack
-      run: dotnet pack --output ${{ env.ARTIFACTS_DIRECTORY }}
+      run: dotnet pack working/templatepack.csproj --output ${{ env.ARTIFACTS_DIRECTORY }}
       
     - name: Publish
       run: dotnet nuget push ${{ env.ARTIFACTS_DIRECTORY }}/*.nupkg\
