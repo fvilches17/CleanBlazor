@@ -9,6 +9,7 @@
     "identity": "FriscoVInc.CleanBlazor.Server.CSharp",
     "name": "Clean Blazor Server App",
     "shortName": "cleanblazorserver",
+    "defaultName": "BlazorApp",
     "description": "A clean Blazor Server app project template. Uses Microsoft's default project template minus any boilerplate code, html, and css (e.g. Bootstrap)",
     "tags": {
         "language": "C#",
