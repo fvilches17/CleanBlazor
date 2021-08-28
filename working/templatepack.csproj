@@ -5,12 +5,12 @@
     <PackageVersion>1.0</PackageVersion>
     <PackageId>FriscoVInc.Templates.CleanBlazor</PackageId>
     <Title>Clean Blazor Templates</Title>
-    <Authors>Franciscov</Authors>
+    <Authors>Frisco V. Inc.</Authors>
     <Description>
       Minimal Blazor server and wasm templates (dotnet CLI and Visual Studio).
       Use to start out of the box Microsoft Blazor projects minus any boilerplate and unecessary html/css/js/razor
     </Description>
-    <PackageTags>dotnet new;dotnet cli;Visual Studio;templates;c#;Blazor;Blazor server;Blazor wasm;wasm;minimal</PackageTags>
+    <PackageTags>dotnet new;dotnet cli;Visual Studio;templates;c#;Blazor;Blazor server;Blazor wasm;wasm;clean;minimal</PackageTags>
 
     <TargetFramework>net6.0</TargetFramework>
 
