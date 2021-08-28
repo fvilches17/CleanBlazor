@@ -18,6 +18,5 @@
         "type": "project"
     },
     "preferNameDirectory": true,
-    "sourceName": "BlazorApp",
-    "thirdPartyNotices": "https://github.com/fvilches17/CleanBlazor/blob/main/THIRD-PARTY-NOTICES.txt"
+    "sourceName": "BlazorApp"
 }
