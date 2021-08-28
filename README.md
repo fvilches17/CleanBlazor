@@ -3,7 +3,7 @@ The out of the box Microsoft Blazor project templates are great for getting fami
 
 However, for brand new custom Blazor projects we will usually want to remove some of the boilerplate assets (e.g. Bootstrap, the Counter component, etc.).
 
-The **CleanBlazor** project templates save you some time by providing minimal Blazor server and wasm templates (dotnet CLI and Visual Studio). Use to start out of the box Microsoft Blazor projects minus any boilerplate and unecessary html/css/js/razor.
+The **CleanBlazor** project templates save you some time by providing minimal Blazor server and wasm templates (dotnet CLI and Visual Studio). Use to start out of the box Microsoft Blazor projects minus any boilerplate and unnecessary html/css/js/razor.
 
 [Available on Nuget](https://www.nuget.org/packages/FriscoVInc.DotNet.Templates.CleanBlazor/) <img src="https://github.com/fvilches17/CleanBlazor/blob/main/images/nuget-logo.svg" height="30">
 
