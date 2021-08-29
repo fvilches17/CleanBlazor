@@ -7,7 +7,7 @@
     <Authors>FriscoV Inc.</Authors>
     <Description>
       Minimal Blazor server and wasm templates (dotnet CLI and Visual Studio).
-      Use to start out of the box Microsoft Blazor projects minus any boilerplate and unecessary html/css/js/razor
+      Use to start out of the box Microsoft Blazor projects minus any boilerplate and unnecessary html/css/js/razor
     </Description>
     <PackageType>Template</PackageType>
     <PackageVersion>1.1.1</PackageVersion>
