@@ -10,10 +10,11 @@
       Use to start out of the box Microsoft Blazor projects minus any boilerplate and unecessary html/css/js/razor
     </Description>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.1.0</PackageVersion>
+    <PackageVersion>1.1.1</PackageVersion>
     <PackageId>FriscoVInc.DotNet.Templates.CleanBlazor</PackageId>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl>https://github.com/fvilches17/CleanBlazor</PackageProjectUrl>
     <PackageTags>dotnet new;dotnet cli;Visual Studio;templates;c#;Blazor;Blazor server;Blazor wasm;wasm;clean;minimal</PackageTags>
     <TargetFramework>net6.0</TargetFramework>
@@ -30,6 +31,7 @@
     <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
     <Compile Remove="**\*" />
     <None Include="icon.png" Pack="true" PackagePath="\"/>
+    <None Include="..\README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
