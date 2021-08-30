@@ -16,7 +16,7 @@
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl>https://github.com/fvilches17/CleanBlazor</PackageProjectUrl>
-    <PackageTags>dotnet new;dotnet cli;Visual Studio;templates;c#;Blazor;Blazor server;Blazor wasm;wasm;clean;minimal</PackageTags>
+    <PackageTags>dotnet;.NET;dotnet new;dotnet cli;Visual Studio;template;project template;c#;Blazor;Blazor server;Blazor wasm;wasm;clean;minimal;Linux;macOS;Windows;UI;web app;css;html</PackageTags>
     <TargetFramework>net6.0</TargetFramework>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
