@@ -27,9 +27,15 @@ dotnet run
 ```
 
 ## Create a project (Visual Studio 2022)
-At time of writing (September 2021) Visual Studio 2022 doesn't seem to support cli templates in the New Project dialog. [See issue](https://developercommunity.visualstudio.com/t/net-cli-templates-in-visual-studio-missing/1508502?from=email&moreInfo=true&viewtype=all)
+1. Open Visual Studio 2022.
+2. Open the New Project Dialog. CTRL+SHIFT+N.
+3. Search for Clean Blazor. Alt+S, then type 'Clean Blazor'
+4. Select the Clean Blazor Server or Clean Blazor Wasm project type.
+5. Name project and solution.
+6. Create project
+7. Done!
 
-For now the CleanBlazor templates can be used directly via the dotnet cli.
+*General Tip: always make sure you're IDE is up to date. Easiest is to update via the Visual Studio installer.
 
 ## Additional Resources
 * [Github] [DotNet templating wiki](https://github.com/dotnet/templating/wiki)

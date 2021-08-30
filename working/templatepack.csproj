@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <PackageReleaseNotes>Update documentation</PackageReleaseNotes>
+    <PackageReleaseNotes>Targets .NET 6 Preview 7; Added ide.host.json files for Visual Studio</PackageReleaseNotes>
 
     <Title>Clean Blazor Templates</Title>
     <Authors>FriscoV Inc.</Authors>
@@ -10,7 +10,7 @@
       Use to start out of the box Microsoft Blazor projects minus any boilerplate and unnecessary html/css/js/razor
     </Description>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.1.2</PackageVersion>
+    <PackageVersion>1.1.3</PackageVersion>
     <PackageId>FriscoVInc.DotNet.Templates.CleanBlazor</PackageId>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>

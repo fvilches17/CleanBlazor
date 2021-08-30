@@ -2,11 +2,14 @@
     "$schema": "http://json.schemastore.org/template",
     "author": "FriscoV Inc.",
     "classifications": [
-        "Web",
         "Blazor",
-        "WebAssembly",
         "Clean",
-        "Minimal"
+        "Cloud",
+        "Linux",
+        "macOS",
+        "Minimal",
+        "Web",
+        "Windows"
     ],
     "identity": "FriscoVInc.CleanBlazor.Wasm.CSharp",
     "groupIdentity": "FriscoVInc.CleanBlazor.Wasm",
