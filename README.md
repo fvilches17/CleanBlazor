@@ -48,6 +48,8 @@ dotnet run
 6. Create project
 7. Done!
 
+![vs New Project dialog](https://github.com/fvilches17/CleanBlazor/blob/main/images/vs-new-project-dialog.png)
+
 *General Tip: always make sure you're IDE is up to date. Easiest is to update via the Visual Studio installer.
 
 ## Gotcha's 😬
