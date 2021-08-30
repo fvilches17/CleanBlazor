@@ -2,7 +2,7 @@
 
 **CleanBlazor** is listed in Microsoft's official dotnet Github repository under the [Available templates for dotnet new section](https://github.com/dotnet/templating/wiki/Available-templates-for-dotnet-new).
 
-**CleanBlazor** is also available in nuget.org. [Link](https://www.nuget.org/packages/FriscoVInc.DotNet.Templates.CleanBlazor/) 
+**CleanBlazor** is also [Available on Nuget](https://www.nuget.org/packages/FriscoVInc.DotNet.Templates.CleanBlazor/) <img src="https://github.com/fvilches17/CleanBlazor/blob/main/images/nuget-logo.svg" height="30">
 
 ## Problem
 The out of the box Microsoft Blazor project templates are great for getting familiar with Blazor or creating PoC apps.
@@ -11,8 +11,6 @@ However, for brand new custom Blazor projects we will usually want to remove som
 
 ## Solution ⏱
 The **CleanBlazor** project templates save you some time by providing minimal Blazor server and wasm templates (dotnet CLI and Visual Studio). Use to start out of the box Microsoft Blazor projects minus any boilerplate and unnecessary html/css/js/razor.
-
-[Available on Nuget](https://www.nuget.org/packages/FriscoVInc.DotNet.Templates.CleanBlazor/) <img src="https://github.com/fvilches17/CleanBlazor/blob/main/images/nuget-logo.svg" height="30">
 
 ## Getting Started 🚀
 1. Make sure you have the latest version of the [.NET SDK](https://dotnet.microsoft.com/download/dotnet/) installed.
