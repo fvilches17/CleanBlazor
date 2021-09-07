@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <PackageReleaseNotes>Targets .NET 6 Preview 7; Added ide.host.json files for Visual Studio</PackageReleaseNotes>
+    <PackageReleaseNotes>Targets .NET 6 Preview 7; Added PWA option for webassembly project</PackageReleaseNotes>
 
     <Title>Clean Blazor Templates</Title>
     <Authors>FriscoV Inc.</Authors>
@@ -10,13 +10,13 @@
       Use to start out of the box Microsoft Blazor projects minus any boilerplate and unnecessary html/css/js/razor
     </Description>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.1.4</PackageVersion>
+    <PackageVersion>1.2.0</PackageVersion>
     <PackageId>FriscoVInc.DotNet.Templates.CleanBlazor</PackageId>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl>https://github.com/fvilches17/CleanBlazor</PackageProjectUrl>
-    <PackageTags>dotnet;.NET;dotnet new;dotnet cli;Visual Studio;template;project template;c#;Blazor;Blazor server;Blazor wasm;wasm;clean;minimal;Linux;macOS;Windows;UI;web app;css;html</PackageTags>
+    <PackageTags>dotnet;.NET;dotnet new;dotnet cli;Visual Studio;template;project template;c#;Blazor;Blazor server;Blazor wasm;wasm;PWA;Progressive Web App;clean;minimal;Linux;macOS;Windows;UI;web app;css;html;SPA;Single Page Application</PackageTags>
     <TargetFramework>net6.0</TargetFramework>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>

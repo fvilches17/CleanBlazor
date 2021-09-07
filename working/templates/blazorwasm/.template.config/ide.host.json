@@ -1,5 +1,14 @@
 {
     "$schema": "http://json.schemastore.org/vs-2017.3.host",
     "order": 200,
-    "icon": "icon.png"
+    "icon": "icon.png",
+    "symbolInfo": [
+        {
+            "id": "PWA",
+            "name": {
+                "text": "_Progressive Web Application"
+            },
+            "isVisible": "true"
+        }
+    ]
 }

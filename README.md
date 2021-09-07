@@ -4,6 +4,8 @@
 
 **CleanBlazor** is also [Available on Nuget](https://www.nuget.org/packages/FriscoVInc.DotNet.Templates.CleanBlazor/) <img src="https://github.com/fvilches17/CleanBlazor/blob/main/images/nuget-logo.svg" height="30">
 
+**CleanBlazor** by default generates projects that target the latest .NET version.
+
 ## Problem
 The out of the box Microsoft Blazor project templates are great for getting familiar with Blazor or creating PoC apps.
 
@@ -38,6 +40,14 @@ cd MyBlazorServerApp
 dotnet run
 ```
 ![app running on browser](https://github.com/fvilches17/CleanBlazor/blob/main/images/app-on-browser.png)
+
+### Additional CLI Options
+```
+dotnet new cleanblazorserver --help
+```
+```
+dotnet new cleanblazorwasm --help
+```
 
 ## Create a project (Visual Studio 2022)
 1. Open Visual Studio 2022.

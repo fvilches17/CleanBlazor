@@ -22,5 +22,35 @@
         "type": "project"
     },
     "preferNameDirectory": true,
-    "sourceName": "BlazorApp"
+    "sourceName": "BlazorApp",
+    "sources": [
+        {
+            "source": "./",
+            "target": "./",
+            "exclude": [
+                ".template.config/**"
+            ],
+            "copyOnly": [
+                "**/wwwroot/css/**"
+            ],
+            "modifiers": [
+                {
+                    "condition": "(!PWA)",
+                    "exclude": [
+                        "wwwroot/service-worker*.js",
+                        "wwwroot/manifest.json",
+                        "wwwroot/icon-*.png"
+                    ]
+                }
+            ]
+        }
+    ],
+    "symbols": {
+        "PWA": {
+            "type": "parameter",
+            "datatype": "bool",
+            "defaultValue": "false",
+            "description": "If specified, produces a Progressive Web Application (PWA) supporting installation and offline use."
+        }
+    }
 }
