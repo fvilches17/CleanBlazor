@@ -1,3 +1,6 @@
+# Current Target
+.NET 6 rc1
+
 # CleanBlazor
 The out of the box Microsoft Blazor project templates are great for getting familiar with Blazor or creating PoC apps.
 

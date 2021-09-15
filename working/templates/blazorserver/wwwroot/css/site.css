@@ -2,11 +2,8 @@ html, body {
     margin: 0;
 }
 
-h1 {
-	/* App.razor uses <FocusOnNavigate /> to focus h1 elements. */
-	/* Some browsers add an element border on focus. */
-	/* 'outline: none' removes the border */
-	outline: none;
+h1:focus {
+    outline: none;
 }
 
 /* ---- Blazor forms and validation ---- */

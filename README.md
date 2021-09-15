@@ -1,3 +1,5 @@
+*Now targeting .NET 6 rc1*
+
 # CleanBlazor <img src="https://github.com/fvilches17/CleanBlazor/blob/main/images/blazor-logo.png" height="30">
 
 **CleanBlazor** is listed in Microsoft's official dotnet Github repository under the [Available templates for dotnet new section](https://github.com/dotnet/templating/wiki/Available-templates-for-dotnet-new).
