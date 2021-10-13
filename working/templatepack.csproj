@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <PackageReleaseNotes>Now Targeting .NET 6 rc1;</PackageReleaseNotes>
+    <PackageReleaseNotes>Now Targeting .NET 6 rc2;</PackageReleaseNotes>
 
     <Title>Clean Blazor Templates</Title>
     <Authors>FriscoV Inc.</Authors>
