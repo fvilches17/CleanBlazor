@@ -1,4 +1,4 @@
-*Now targeting .NET 6 rc2*
+*Now targeting .NET 6, moving forward package versions will reflext the .NET version*
 
 # CleanBlazor <img src="https://github.com/fvilches17/CleanBlazor/blob/main/images/blazor-logo.png" height="30">
 
