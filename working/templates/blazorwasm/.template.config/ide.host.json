@@ -9,6 +9,13 @@
                 "text": "_Progressive Web Application"
             },
             "isVisible": "true"
+        },
+        {
+            "id": "Hosted",
+            "name": {
+                "text": "_ASP.NET Core hosted"
+            },
+            "isVisible": "true"
         }
     ]
 }

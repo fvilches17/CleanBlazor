@@ -51,6 +51,12 @@
             "datatype": "bool",
             "defaultValue": "false",
             "description": "If specified, produces a Progressive Web Application (PWA) supporting installation and offline use."
+        },
+        "Hosted": {
+            "type": "parameter",
+            "datatype": "bool",
+            "defaultValue": "false",
+            "description": "If specified, includes an ASP.NET core host for the Blazor WebAssembly app."
         }
     }
 }
