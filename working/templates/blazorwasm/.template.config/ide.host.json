@@ -2,11 +2,19 @@
     "$schema": "http://json.schemastore.org/vs-2017.3.host",
     "order": 200,
     "icon": "icon.png",
+    "learnMoreLink": "https://github.com/fvilches17/CleanBlazor",
     "symbolInfo": [
         {
             "id": "PWA",
             "name": {
                 "text": "_Progressive Web Application"
+            },
+            "isVisible": "true"
+        },
+        {
+            "id": "ASPNETCOREHOSTED",
+            "name": {
+                "text": "_ASP.NET Core hosted"
             },
             "isVisible": "true"
         }

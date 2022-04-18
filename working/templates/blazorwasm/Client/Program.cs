@@ -1,4 +1,9 @@
+#if (!ASPNETCOREHOSTED)
 using BlazorApp;
+#endif
+#if (ASPNETCOREHOSTED)
+using BlazorApp.Client;
+#endif
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 

@@ -23,13 +23,25 @@
     },
     "preferNameDirectory": true,
     "sourceName": "BlazorApp",
+    "primaryOutputs": [
+        {
+            "condition": "(ASPNETCOREHOSTED && HostIdentifier != \"dotnetcli\" && HostIdentifier != \"dotnetcli-preview\")",
+            "path": "Server/BlazorApp.Server.csproj"
+        },
+        {
+            "condition": "(ASPNETCOREHOSTED && HostIdentifier != \"dotnetcli\" && HostIdentifier != \"dotnetcli-preview\")",
+            "path": "Client/BlazorApp.Client.csproj"
+        },
+        {
+            "condition": "(ASPNETCOREHOSTED && HostIdentifier != \"dotnetcli\" && HostIdentifier != \"dotnetcli-preview\")",
+            "path": "Shared/BlazorApp.Shared.csproj"
+        }
+    ],
     "sources": [
         {
-            "source": "./",
+            "source": "./Client/",
             "target": "./",
-            "exclude": [
-                ".template.config/**"
-            ],
+            "condition": "(!ASPNETCOREHOSTED)",
             "copyOnly": [
                 "**/wwwroot/css/**"
             ],
@@ -43,9 +55,61 @@
                     ]
                 }
             ]
+        },
+        {
+            "source": "./",
+            "target": "./",
+            "condition": "(ASPNETCOREHOSTED && (HostIdentifier == \"dotnetcli\" || HostIdentifier == \"dotnetcli-preview\"))",
+            "include": [
+                "BlazorApp.sln"
+            ]
+        },
+        {
+            "source": "./Client/",
+            "target": "./Client/",
+            "condition": "(ASPNETCOREHOSTED)",
+            "copyOnly": [
+                "**/wwwroot/css/**"
+            ],
+            "modifiers": [
+                {
+                    "condition": "(!PWA)",
+                    "exclude": [
+                        "wwwroot/service-worker*.js",
+                        "wwwroot/manifest.json",
+                        "wwwroot/icon-*.png"
+                    ]
+                },
+                {
+                    "condition": "(ASPNETCOREHOSTED)",
+                    "rename": {
+                        "BlazorApp.csproj": "BlazorApp.Client.csproj"
+                    }
+                }
+            ]
+        },
+        {
+            "source": "./Server/",
+            "target": "./Server/",
+            "condition": "(ASPNETCOREHOSTED)"
+        },
+        {
+            "source": "./Shared/",
+            "target": "./Shared/",
+            "condition": "(ASPNETCOREHOSTED)"
         }
     ],
     "symbols": {
+        "ASPNETCOREHOSTED": {
+            "type": "parameter",
+            "datatype": "bool",
+            "defaultValue": "false",
+            "description": "If specified, includes an ASP.NET Core host for the Blazor WebAssembly app."
+        },
+        "HostIdentifier": {
+            "type": "bind",
+            "binding": "HostIdentifier"
+        },
         "PWA": {
             "type": "parameter",
             "datatype": "bool",
