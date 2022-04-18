@@ -1,0 +1,22 @@
+﻿@page "/"
+@*#if (ASPNETCOREHOSTED)*@
+@using BlazorApp.Shared
+@inject HttpClient Http
+@*#endif*@
+
+<PageTitle>Index</PageTitle>
+
+<h1>Clean Blazor</h1>
+
+@*#if (ASPNETCOREHOSTED)*@
+<p>@_message</p>
+
+@code {
+    private string _message = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _message = (await Http.GetFromJsonAsync<Message>("api/messages/main"))!.Text;
+    }
+}
+@*#endif*@
