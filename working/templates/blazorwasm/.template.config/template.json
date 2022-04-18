@@ -110,6 +110,16 @@
             "type": "bind",
             "binding": "HostIdentifier"
         },
+        "NoHttps": {
+            "type": "parameter",
+            "datatype": "bool",
+            "defaultValue": "false",
+            "description": "Whether to turn off HTTPS."
+        },
+        "RequiresHttps": {
+            "type": "computed",
+            "value": "(!NoHttps)"
+        },
         "PWA": {
             "type": "parameter",
             "datatype": "bool",

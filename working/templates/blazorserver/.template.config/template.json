@@ -22,5 +22,36 @@
         "type": "project"
     },
     "preferNameDirectory": true,
-    "sourceName": "BlazorApp"
+    "sourceName": "BlazorApp",
+    "primaryOutputs": [
+        {
+            "path": "BlazorApp.csproj"
+        }
+    ],
+    "sources": [
+        {
+            "source": "./",
+            "target": "./",
+            "exclude": [
+                "**/[Bb]in/**",
+                "**/[Oo]bj/**",
+                ".template.config/**/*",
+                "**/*.filelist",
+                "**/*.user",
+                "**/*.lock.json"
+            ]
+        }
+    ],
+    "symbols": {
+        "RequiresHttps": {
+            "type": "computed",
+            "value": "(!NoHttps)"
+        },
+        "NoHttps": {
+            "type": "parameter",
+            "datatype": "bool",
+            "defaultValue": "false",
+            "description": "Whether to turn off HTTPS."
+        }
+    }
 }

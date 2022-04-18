@@ -5,6 +5,13 @@
     "learnMoreLink": "https://github.com/fvilches17/CleanBlazor",
     "symbolInfo": [
         {
+            "id": "ASPNETCOREHOSTED",
+            "name": {
+                "text": "_ASP.NET Core hosted"
+            },
+            "isVisible": "true"
+        },
+        {
             "id": "PWA",
             "name": {
                 "text": "_Progressive Web Application"
@@ -12,9 +19,9 @@
             "isVisible": "true"
         },
         {
-            "id": "ASPNETCOREHOSTED",
+            "id": "NoHttps",
             "name": {
-                "text": "_ASP.NET Core hosted"
+                "text": "_No HTTPS"
             },
             "isVisible": "true"
         }
