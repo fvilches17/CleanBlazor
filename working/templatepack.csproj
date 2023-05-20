@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <PackageReleaseNotes>Update to .NET 6.0.7</PackageReleaseNotes>
+    <PackageReleaseNotes>Update to .NET 6.0.16</PackageReleaseNotes>
     <Title>Clean Blazor Templates</Title>
     <Authors>FriscoV Inc.</Authors>
     <Description>
@@ -9,7 +9,7 @@
       Use to start out of the box Microsoft Blazor projects minus any boilerplate and unnecessary html/css/js/razor
     </Description>
     <PackageType>Template</PackageType>
-    <PackageVersion>6.0.7</PackageVersion>
+    <PackageVersion>6.0.17</PackageVersion>
     <PackageId>FriscoVInc.DotNet.Templates.CleanBlazor</PackageId>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
