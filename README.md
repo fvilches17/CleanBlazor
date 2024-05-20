@@ -54,7 +54,7 @@ dotnet new cleanblazorwasm --help
 ## Create a project (Visual Studio 2022)
 1. Open Visual Studio 2022.
 2. Open the New Project Dialog. CTRL+SHIFT+N.
-3. Search for Clean Blazor. Alt+S, then type 'Clean Blazor'
+3. Search for Clean Blazor. Alt+S, then type 'Clean Blazor'.
 4. Select the Clean Blazor Server or Clean Blazor Wasm project type.
 5. Name project and solution.
 6. Create project
